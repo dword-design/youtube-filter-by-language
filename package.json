@@ -1,0 +1,38 @@
+{
+  "version": "1.0.0",
+  "private": true,
+  "repository": "dword-design/youtube-filter-by-language",
+  "funding": "https://github.com/sponsors/dword-design",
+  "license": "MIT",
+  "author": "Sebastian Landwehr <info@sebastianlandwehr.com>",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "base build",
+    "checkUnknownFiles": "base checkUnknownFiles",
+    "commit": "base commit",
+    "depcheck": "base depcheck",
+    "lint": "base lint",
+    "prepare": "base prepare",
+    "prepublishOnly": "base prepublishOnly",
+    "test": "base test",
+    "typecheck": "base typecheck",
+    "verify": "base verify"
+  },
+  "dependencies": {
+    "youtubei.js": "^18.0.0"
+  },
+  "devDependencies": {
+    "@dword-design/base": "^17.0.1",
+    "@dword-design/base-config-cli": "^4.1.3"
+  },
+  "packageManager": "pnpm@10.34.5+sha512.a4ee05f2f73658255bd6a89859c065a45c28a57daefae2c893a168ee2b73168c37b91e83e57ea67654ad03f03031746430e8bce38e362e042605fb8abc80192e",
+  "engines": {
+    "node": ">=22"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
